@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GroceryApp</title>
+    <link href="grocery.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h1>Grocery App</h1>
+</header>
+<main>
+<form id="survey-form" >
+
+            Product name:<br>
+            <input type="text" style="width: 340px" name=name" id="name" height="20" placeholder="name" required >
+            <br>
+
+            Number Of Units:<br>
+            <input type="number" style="width: 340px" name="unit" id="unit" size="40" height="20" placeholder="enter atleast one" required >
+            <br>
+
+            Price_Per_Unit:<br>
+
+            <input type="number" style="width: 340px" name="price" id="price" size="40" height="20" placeholder="Enter valid price" required>
+            <br><br>
+
+            <input type="button" style="width: 340px" id="button" value="AddToCart"><br><br>
+
+
+
+
+</form>
+<br><br>
+<table id="t01">
+    <tr>
+        <th>NameOfItem</th>
+        <th>#Units</th>
+        <th>PricePerUnit</th>
+        <th>TotalPrice</th>
+        <th>Edit</th>
+        <th>Delete</th>
+        <th>Save</th>
+    </tr>
+
+
+</table>
+    <br><br>
+    <div id="grandTotal">
+    Grand Total=
+    <input type="text" style="width: 340px ;text-align: center;" name=grandTotal" id="grandTotalText" height="20" placeholder="0" >
+    <br>
+</div>
+<script src="grcery.js"></script>
+</main>
+</body>
+</html>

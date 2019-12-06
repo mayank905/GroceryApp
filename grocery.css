@@ -1,0 +1,41 @@
+table, th, td {
+    margin: 0px auto;
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 7px;
+    text-align: center;
+}
+table#t01 {
+    width: 0px;
+    background-color: #f1f1c1;
+}
+
+main{
+    margin: 0px auto;
+    padding: 30px 0px;
+    width: 700px;
+    background-color: #35676e;
+}
+header{
+    text-align: center;
+    background-color: #0a5991;
+    color:white;
+}
+body{
+    background-color: #65c2cf;
+}
+#submit-label{
+    width: 40em;
+}
+input[type=button]{
+    width: 70px;
+}
+#survey-form{
+    text-align: center;
+}
+div#grandTotal{
+    padding-right: 80px;
+    text-align: center;
+}
